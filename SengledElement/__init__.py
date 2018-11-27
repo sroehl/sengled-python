@@ -1,4 +1,4 @@
-sengled_base_url = 'https://ec2-34-211-169-253.us-west-2.compute.amazonaws.com/'
+sengled_base_url = 'https://element.cloud.sengled.com/'
 zigbee_url = 'zigbee/'
 customer_url = 'customer/'
 device_url = 'device/'
