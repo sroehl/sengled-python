@@ -7,8 +7,11 @@ class devices:
     client = None
 
     def add_device(self, device, room_id):
-        device['roomId'] = room_id
-        self.devices.append(device)
+        if self.get_device(device['deviceUuid']) == None:
+            device['roomId'] = room_id
+            self.devices.append(device)
+            return True
+        return False
 
     def clear_device_list(self):
         self.devices = []

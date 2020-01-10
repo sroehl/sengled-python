@@ -7,7 +7,8 @@ class rooms:
         self.rooms = []
 
     def add_room(self, room):
-        self.rooms.append(room)
+        if room not in self.rooms:
+            self.rooms.append(room)
 
     def __init__(self):
         self.rooms = []

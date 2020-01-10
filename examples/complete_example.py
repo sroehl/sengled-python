@@ -36,6 +36,5 @@ def main_input():
 
 if __name__ == '__main__':
     home = client.client(sys.argv[1], sys.argv[2])
-
     main_input()
 
