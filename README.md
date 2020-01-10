@@ -10,4 +10,4 @@ See examples for an example of how to use the library to control Sengled Element
 
 ### prerequisites
 - python requests
-  - pip install requests
+  - ```pip install requests```
