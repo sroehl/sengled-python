@@ -7,3 +7,7 @@ This is a Python library for interfacing with the Sengled Element devices
 
 ## Getting Started
 See examples for an example of how to use the library to control Sengled Element bulbs.
+
+### prerequisites
+- python requests
+  - ```pip install requests```
